@@ -1,0 +1,27 @@
+﻿body {
+    /*below, I am normalizing the CSS*/
+    margin: auto 0;
+    font-family: Arial;
+}
+
+/*COVER*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*vh= view port height    */
+    height: 50vh;
+}
+
+.cover {
+    width: 30rem;
+    
+}
+
+body {
+    background-color: burlywood;
+}
+
+
+

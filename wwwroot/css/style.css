@@ -1,0 +1,81 @@
+﻿body {
+    /*below, I am normalizing the CSS*/
+    margin: auto 0;
+    font-family: Arial;
+}
+
+
+
+/*navigation (NAV)*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav {
+    display: flex;
+    /*    below, removes bullet points*/
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+.nav-link {
+    color: #fff;
+    background-color: #B48B70;
+    border-color: #B48B70;
+    padding: 0;
+}
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 1.0em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: #f5f5f6;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.zone {
+   /* padding: 30px 50px;
+    margin: 40px 60px;*/
+    cursor: pointer;
+    /*display: inline-block;*/
+    color: #FFF;
+    font-size: 1.5em;
+    border-radius: 4px;
+    border: 1px solid #f6e6b4;
+    transition: all 0.3s linear;
+}
+
+    .zone:hover {
+        -webkit-box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+        -moz-box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+        -o-box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+        box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    }
+
+/***********************************************************************
+ *Background
+ **********************************************************************/
+.brown {
+    background: #B48B70; /* Old browsers */
+    background: -moz-linear-gradient(top, #B48B70 0%, #B48B70 44%, #B48B70 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B48B70), color-stop(44%,#B48B70), color-stop(100%,#B48B70)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #B48B70 0%,#B48B70 44%,#B48B70 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #B48B70 0%,#B48B70 44%,#B48B70 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #B48B70 0%,#B48B70 44%,#B48B70 100%); /* IE10+ */
+    background: linear-gradient(top, #B48B70 0%,#B48B70 44%,#B48B70 100%); /* W3C */
+}
