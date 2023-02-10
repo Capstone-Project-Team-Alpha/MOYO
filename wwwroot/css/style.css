@@ -1,81 +1,140 @@
-﻿body {
-    /*below, I am normalizing the CSS*/
-    margin: auto 0;
-    font-family: Arial;
+﻿:root {
+    --dl-color-gray-500: #999999;
+    --dl-color-gray-700: #D9D9D9;
+    --dl-color-gray-900: #eaeaeaff;
+    --dl-color-gray-black: #000000;
+    --dl-color-gray-white: #FFFFFF;
+    --dl-space-space-unit: 8px;
+    --dl-color-primary-100: #3a26efff;
+    --dl-color-primary-500: #8469deff;
+    --dl-color-primary-700: #9a91e2ff;
+    --dl-radius-radius-round: 50%;
+    --dl-size-size-maxcontent: 1414px;
+    --dl-space-space-halfunit: 4px;
+    --dl-space-space-tenunits: 80px;
+    --dl-radius-radius-radius2: 2px;
+    --dl-radius-radius-radius4: 4px;
+    --dl-radius-radius-radius8: 8px;
+    --dl-space-space-fiveunits: 40px;
+    --dl-space-space-fourunits: 32px;
+    --dl-space-space-doubleunit: 16px;
+    --dl-space-space-tripleunit: 24px;
 }
 
-
-
-/*navigation (NAV)*/
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+.teleport-show {
+    display: flex !important;
+    transform: none !important;
 }
 
-.main-nav {
-    display: flex;
-    /*    below, removes bullet points*/
-    list-style: none;
-    font-size: 0.7em;
-    margin: 0;
+.list-item {
+    display: list-item;
 }
 
-.nav-link {
-    color: #fff;
-    background-color: #B48B70;
-    border-color: #B48B70;
-    padding: 0;
-}
-@media only screen and (max-width: 600px) {
-    .main-nav {
-        font-size: 1.0em;
-        padding: 0;
-    }
-}
-
-.push {
-    margin-left: auto;
-}
-
-li {
-    padding: 20px;
-}
-
-a {
-    color: #f5f5f6;
-    text-decoration: none;
-    margin-left: auto;
-}
-
-.zone {
-   /* padding: 30px 50px;
-    margin: 40px 60px;*/
-    cursor: pointer;
-    /*display: inline-block;*/
-    color: #FFF;
-    font-size: 1.5em;
+.button {
+    color: var(--dl-color-gray-black);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-family: Open Sans;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
     border-radius: 4px;
-    border: 1px solid #f6e6b4;
-    transition: all 0.3s linear;
+    background-color: var(--dl-color-gray-white);
 }
 
-    .zone:hover {
-        -webkit-box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-        -moz-box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-        -o-box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-        box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    }
+.list {
+    width: 100%;
+    margin: 1em 0px 1em 0px;
+    display: block;
+    padding: 0px 0px 0px 1.5rem;
+    list-style-type: none;
+    list-style-position: outside;
+}
 
-/***********************************************************************
- *Background
- **********************************************************************/
-.brown {
-    background: #B48B70; /* Old browsers */
-    background: -moz-linear-gradient(top, #B48B70 0%, #B48B70 44%, #B48B70 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B48B70), color-stop(44%,#B48B70), color-stop(100%,#B48B70)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #B48B70 0%,#B48B70 44%,#B48B70 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #B48B70 0%,#B48B70 44%,#B48B70 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #B48B70 0%,#B48B70 44%,#B48B70 100%); /* IE10+ */
-    background: linear-gradient(top, #B48B70 0%,#B48B70 44%,#B48B70 100%); /* W3C */
+.textarea {
+    color: var(--dl-color-gray-black);
+    cursor: auto;
+    padding: 0.5rem;
+    font-family: Open Sans;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-gray-white);
+}
+
+.input {
+    color: var(--dl-color-gray-black);
+    cursor: auto;
+    padding: 0.5rem 1rem;
+    font-family: Open Sans;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-gray-white);
+}
+
+.Section-Text {
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 1.55;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.Card-Text {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 1.55;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.BigCard-Heading {
+    font-size: 36px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.Content {
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 1.55;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.Card-Heading {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.Anchor {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.Section-Heading {
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.22;
+    text-transform: none;
+    text-decoration: none;
 }

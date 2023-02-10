@@ -6,10 +6,16 @@
     <title>@ViewData["MOYO"] - MOYO by Safiya Nanji</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/style.css" />
- 
+    <link rel="stylesheet" href="~/css/home.css" />
+
 </head>
 <body>
     <header>
+        @*Menu: Home, About Me and Book Appointment should be on the left. SignUp, Calendar and Contact me is on the right. 
+        Book Appointment a dropdown? Change Book Appointment to Appointment. Beneith it Book Appointment, Update Appointment 
+        and View Appointments.
+        Text in the middle of the menu navigation saying Safiya in Lucida Calligraph font or another cursive font*@
+      
         <nav class="zone brown sticky">
             <ul class="main-nav">
                 <li class="nav-item">
@@ -21,6 +27,7 @@
                 <li class="nav-item">
                     <a class="nav-link" asp-area="" asp-page="/BookAppointment">Book Appointment</a>
                 </li>
+                
                 <li class="push">
                     <a class="nav-link" asp-area="" asp-page="/MembershipRegistration">Sign Up</a>
                 </li>
@@ -41,11 +48,11 @@
         </main>
     </div>
 
-    @*<footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - MOYO_Website - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2023 - MOYO_Website -By Team Alpha <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
-    </footer>*@
+    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -9,6 +9,7 @@ namespace MOYO_Website.Pages
 {
     public class AboutMeModel : PageModel
     {
+        public string Message { get; set; }
         public void OnGet()
         {
         }

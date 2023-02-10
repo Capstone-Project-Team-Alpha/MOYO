@@ -4,13 +4,13 @@
     font-family: Arial;
 }
 
-/*COVER*/
+COVER
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-/*vh= view port height    */
+/*vh= view port height*/    
     height: 50vh;
 }
 
@@ -18,10 +18,45 @@
     width: 30rem;
     
 }
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*.box {
+    display: flex;
+    justify-content: space-between;
+}
+*/
+
+
+.cover {
+    width: 30rem;
+}
 
 body {
     background-color: burlywood;
 }
 
+.p1 {
+    font-family: "Lucida Handwriting", sans-serif;
+    font-size: 1.0em;
+    /*border-bottom: 2px solid brown;*/
+    /* border-right: 2px solid brown;*/
+    width: 1500px;
+    text-align: center;
+      -moz-box-shadow: 4px 4px 5px #fcfafa;
+            -ms-box-shawdow: 4px 4px 5px #fcfafa;
+            -webkit-box-shadow: 4px 4px 5px #fcfafa;
+            -o-box-shadow: 4px 4px 5px #fcfafa;
+            box-shadow: 4px 4px 5px #fcfafa;
+    margin-top: 10px;
+}
 
 

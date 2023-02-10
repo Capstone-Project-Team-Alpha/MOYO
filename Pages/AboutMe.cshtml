@@ -2,15 +2,50 @@
 @model MOYO_Website.Pages.AboutMeModel
 @{
 }
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<div>
+    @Model.Message
+</div>
 
 <!DOCTYPE html>
 <html>
 <head>
     <title>MOYO-Mind, Body and Soul</title>
     <link rel="stylesheet" type="text/css" href="~/css/style.css">
-
+    <style>
+        body {
+            background-color: burlywood;
+        }
+    </style>
+    
 </head>
 <body>
+    <div class="container">
+        @*Image should be below the menu navigation to the left of the page*@
+        <img src="~/images/Safiya-Yoga Pose-2-small.png" style="float: left" />
+    </div>
+    @*left of the profile picture. Font family. Something cursive like Lucida Calligraph*@
+    <p class="p1" style="text-align:right">
+        Compassionate oncology nurse and yoga instructor with options for various approaches to yoga practice including, but not limited to Vinyasa flow, Power flow, Yin and Restorative for adults.
 
+        Over 14 years of various types of yoga practices, including meditation and Yoga Nidra.
+
+        Over 14 years of experience working with organizations specializing in inpatient and outpatient health care. Resourceful and well versed in dealing with multilevel needs (emotional and physical) within a multidisciplinary team and independently. Able to work effectively with patients, families, and members of the multidisciplinary team to optimize patient outcomes.
+
+        Formally trained in yoga instruction, nursing education, project management and change management to bring deep understanding and best practice throughout the process, including formal and informal teaching.
+    </p>
+    @*left to the previous paragraph. Font family. Something cursive like Lucida Calligraph*@
+    <p>
+        I use most of the philosophies of Patanjali’s Yoga Sutras, mantras originating in the Vedas (Indic texts from over 4000 years ago), and breath work (pranayama) from the Vedic texts to Wim Hof’s techniques and more.
+
+        My meditation practices are based in my own experiences of meditation as well as teachings from the Vedas, Dr. Deepak Chopra, Ester Ekhart, and Jana Roemer.
+
+        And finally, my asana/movement practices originate in the Yoga Sutras, with formal training (200H YTT) from Altr Yoga (Yoga Alliance Certified), Calgary, AB, Canada, Yoga Thrive, and Jana Roemer.
+
+        I continue to update my teachings/practices through my membership with Yoga International.
+
+    </p>
 </body>
-</html>
+</html >

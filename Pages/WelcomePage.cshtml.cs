@@ -10,7 +10,8 @@ namespace MOYO_Website.Pages
 {
     public class WelcomePageModel : PageModel
     {
-       
+        public string Message { get; set; }
+
         public void OnGet()
         {
         }

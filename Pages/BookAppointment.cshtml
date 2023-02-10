@@ -2,6 +2,12 @@
 @model MOYO_Website.Pages.BookAppointmentModel
 @{
 }
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<div>
+    @Model.Message
+</div>
 
 <!DOCTYPE html>
 <html>
@@ -10,7 +16,109 @@
     <link rel="stylesheet" type="text/css" href="~/css/style.css">
 
 </head>
+@*Message handles if date and time are available.
+    Message 2 hangles if Customer is in the database.*@
+
 <body>
+    <h1>Book Appointment</h1>
+
+    <h5> Find Available Yoga Sessions</h5>
+    <div>
+        <b>@Model.Message</b>
+    </div>
+    <form method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Date">Choose date for your Yoga Session:</label>
+            <input asp-for="Date" class="form-control" type="date" min="@DateTime.UtcNow.Date.ToString("yyyy-MM-dd")" max="@DateTime.UtcNow.Date.AddDays(7).ToString("yyyy-MM-dd")" value="@Model.Date" />
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Time">Choose a time for your Yoga session</label>
+            <input type="time" id="appt" name="appt" min="18:00" max="22:00" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" asp-page-handler="Search">Search</button>
+        </div>
+    </form>
+
+    @*if statement goes here. For example, if appointment date and time are available. User can enter new appointment info.
+        Else the system will prompt user to enter a new date and time.*@
+
+    <h3>Find Registered Customer</h3>
+    <b> @Model.Message2</b>
+    <form method="post">
+
+
+        <div class="form-group">
+            <label asp-for="CustomerID">Customer ID:</label>
+            <input asp-for="CustomerID" class="form-control" value="@Model.CustomerID" />
+            <span asp-validation-for="CustomerID" class="text-danger"></span>
+        </div>
+        @*User will search for a registered customer*@
+        <div class="form-group">
+            <button type="submit" asp-page-handler="Search">Search</button>
+        </div>
+
+
+
+    </form>
+    @*if statement goes here. If customer does exist display the customers info. Else, enter all their info.*@
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <td>CustomerID</td>
+            <td>MOYO Intake Form Complete</td>
+            <td>Waiver and Release Form Signed</td>
+            <td>Last Name</td>
+            <td>First Name</td>
+            @*Address is important just in case it is an in person visit*@
+            <td>Home Address</td>
+            <td>Home PostalCode</td>
+            <td>Home Phone</td>
+            <td>Alternate Phone</td>
+            <td>Email</td>
+            @*Are we capturing more customer information?*@
+
+
+        </tr>
+
+        <tr>
+            <td>@Html.DisplayFor(modelMember => Model.CustomerID)</td>
+            <td>@Html.DisplayFor(modelMember => Model.IntakeForm)</td>
+            <td>@Html.DisplayFor(modelMember => Model.LastName)</td>
+            <td>@Html.DisplayFor(modelMember => Model.FirstName)</td>
+            <td>@Html.DisplayFor(modelMember => Model.HomeAddress)</td>
+            <td>@Html.DisplayFor(modelMember => Model.HomePostalCode)</td>
+            <td>@Html.DisplayFor(modelMember => Model.HomePhone)</td>
+            <td>@Html.DisplayFor(modelMember => Model.Email)</td>
+
+
+        </tr>
+    </table>
+
+    <h3>Book Yoga Appointment</h3>
+    <b> @Model.Message2</b>
+    <form method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger">
+        </div>
+        <div class="form-group">
+            <label asp-for="Date">Choose date for your Yoga Session:</label>
+            <input asp-for="Date" class="form-control" type="date" min="@DateTime.UtcNow.Date.ToString("yyyy-MM-dd")" max="@DateTime.UtcNow.Date.AddDays(7).ToString("yyyy-MM-dd")" value="@Model.Date" />
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Time">Choose a time for your Yoga session</label>
+            <input type="time" id="appt" name="appt" min="18:00" max="22:00" required>
+        </div>
+
+
+
+
+    </form>
 
 </body>
 </html>
+<button type="submit" asp-page-handler="Submit">Book Appointment</button>

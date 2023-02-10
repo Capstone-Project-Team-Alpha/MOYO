@@ -9,6 +9,7 @@ namespace MOYO_Website.Pages
 {
     public class MembershipRegistrationModel : PageModel
     {
+        public string Message { get; set; }
         public void OnGet()
         {
         }
