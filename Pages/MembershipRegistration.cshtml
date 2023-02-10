@@ -5,17 +5,226 @@
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
-<div>
+
+<div class="alert alert-info">
     @Model.Message
 </div>
-<!DOCTYPE html>
-<html>
 <head>
-    <title>MOYO-Mind, Body and Soul</title>
-    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <link href="~/css/style.css" rel="stylesheet" />
+    <style>
+        .pborder {
+            border-width: 3px;
+            border-style: solid;
+            border-color: #c72828;
+        }
 
+    </style>
 </head>
 <body>
+    <h1>Membership Application</h1>
 
+    <form method="post">
+        <p>Personal Information</p>
+        <div asp-validation-summary="ModelOnly" class="text-danger">
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="newMember.LastName">Last Name:</label>
+            <input asp-for="newMember.LastName" class="form-control" />
+            <span asp-validation-for="newMember.LastName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="newMember.FirstName">First Name:</label>
+            <input asp-for="newMember.FirstName" class="form-control" />
+            <span asp-validation-for="newMember.FirstName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="newMember.HomeAddress">Home Address:</label>
+            <input asp-for="newMember.HomeAddress" class="form-control" />
+            <span asp-validation-for="newMember.HomeAddress" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="newMember.HomeCity">Home City:</label>
+            <input asp-for="newMember.HomeCity" class="form-control" />
+            <span asp-validation-for="newMember.HomeCity" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="newMember.HomeProvince">Home Province:</label>
+            <select asp-for="newMember.HomeProvince" asp-items="Model.HProvince" class="form-control">
+                <option value="">Select Home Province</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="newMember.HomePostalCode">Home PostalCode:</label>
+            <input asp-for="newMember.HomePostalCode" class="form-control" />
+            <span asp-validation-for="newMember.HomePostalCode" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="newMember.HomePhone">Home Phone:</label>
+            <input asp-for="newMember.HomePhone" class="form-control" />
+            <span asp-validation-for="newMember.HomePhone" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="newMember.AlternatePhone">Alternative Phone:</label>
+            <input asp-for="newMember.AlternatePhone" class="form-control" />
+            <span asp-validation-for="newMember.AlternatePhone" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="newMember.Email">Email:</label>
+            <input asp-for="newMember.Email" class="form-control" />
+            <span asp-validation-for="newMember.Email" class="text-danger"></span>
+        </div>
+        @*<medium>Providing an Email address (above) will allow MOYO to send out a monthly newsletters via Email.</medium><br />*@
+        <br />
+        <div class="form-group">
+            <label asp-for="newMember.DateOfBirth">Date of Birth (Month/Day/Year):</label>
+            <input asp-for="newMember.DateOfBirth" class="form-control" type="date" />
+            <span asp-validation-for="newMember.DateOfBirth" class="text-danger"></span>
+        </div>
+
+        <p class="pborder">
+        <p>
+            <br />
+            WAIVER & RELEASE (this "Agreement")
+            BETWEEN:
+            (the "Participant")
+            AND
+        </p>
+        <br />
+        <p>
+            Safiya Nanji of 121 13 Avenue SW, Unit 1407, Calgary, AB, T2R 0Z2 (the "Activity
+            Provider")
+        </p>
+        <br />
+        IN CONSIDERATION OF the covenants and agreements contained in this Agreement
+        and other good and valuable consideration, the receipt of which is hereby
+        acknowledged, the parties to this Agreement agree as follows:
+
+        <br />
+        <p>
+
+            Consideration
+            <br />
+            1. Being of lawful age and in consideration of being permitted to participate in the
+            activity described below, the Participant releases and forever discharges the
+            Activity Provider, the Activity Provider's spouse, heirs, executors,
+            administrators, legal representatives and assigns from all manner of actions,
+            causes of action, debts, accounts, bonds, contracts, claims and demands for or by
+            reason of any injury to person or property, including injury resulting in the death
+            of the Participant, which has been or may be sustained as a consequence of the
+            Participant's participation in the activity described below, and not withstanding
+            that such damage, loss or injury may have been caused solely or partly by the
+            negligence of the Activity Provider.
+        </p>
+        <p>
+            <br />
+            2. The Participant understands that the Participant would not be permitted to
+            participate in the activity described below unless the Participant signed this
+            Agreement.
+        </p>
+        Details of Activity
+        <br />
+        <p>
+            3. The Participant will participate in the following activity: MOYO (includes yoga
+            asana, breath work, and meditation).
+            <br />
+        </p>
+        <p>
+            Concurrent Release
+            4. The Participant acknowledges that this Agreement is given with the express
+            intention of effecting the extinguishment of certain obligations owed to the
+            Participant and with the intention of binding the Participant's spouse, heirs,
+            executors, administrators, legal representatives and assigns.
+            Fitness to Participate
+            <br />
+        </p>
+        <br />
+        <p>
+        5. The Participant acknowledges that the Participant does not have any physical
+        limitations, medical ailments, physical or mental disabilities that would limit or
+        MOYO intake form
+        prevent the Participant from participating in the above mentioned activity. If
+        required, the Participant will obtain a medical examination and clearance.
+        </p>
+        <br />
+        Full and Final Settlement
+        <br />
+        <p>
+        6. The Participant hereby acknowledges and agrees that the Participant has
+        carefully read this Agreement, that the Participant fully understands the same,
+        and that the Participant is freely and voluntarily executing the same.
+            </p>
+        7. The Participant understands that by signing this Agreement, the Participant
+        agrees to be forever prevented from suing or otherwise claiming against the
+        Activity Provider for any property loss or personal injury that the Participant
+        may sustain while participating in or preparing for the above noted activity.
+        <br />
+        <p>
+        8. The Participant has been given the opportunity and has been encouraged to seek
+        independent legal advice prior to signing this Agreement.
+            </p>
+        9. This Agreement contains the entire agreement between the parties to this
+        Agreement and the terms of this Agreement are contractual and not a mere
+        recital.
+        
+        <p>
+            Governing Law
+            <br />
+            10. This Agreement will be governed by and construed in accordance with and
+            governed by the laws of the Province of Alberta.
+        </p>
+        </p>
+        <div class="form-group">
+            <label asp-for="newMember.Date">Date:</label>
+            <input asp-for="newMember.Date" class="form-control" type="date" min="@DateTime.UtcNow.Date.ToString("yyyy-MM-dd")" />
+            <span asp-validation-for="newMember.Date" class="text-danger"></span>
+        </div>
+        <hr style="height:2px;border-width:10px;color:gray;background-color:gray">
+        <p>
+            The above named applicant is personally known to me, and I believe him/her to be
+            suitable person to be elected as a member of Club BAIST.
+        </p>
+        <div class="form-group">
+            <label asp-for="newMember.FirstName">First Name:</label>
+            <input asp-for="newMember.FirstName" class="form-control" />
+            <span asp-validation-for="newMember.FirstName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="newMember.LastName">Last Name:</label>
+            <input asp-for="newMember.LastName" class="form-control" />
+            <span asp-validation-for="newMember.LastName" class="text-danger"></span>
+        </div>
+
+        <div>
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+            <label for="checkbox1"> I agree to the Waiver and Release Form</label><br>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2">
+            <label for="checkbox2"> I do not agree to the Waiver and Release Form</label><br>
+        </div>
+
+
+        <hr style="height:2px;border-width:10px;color:gray;background-color:gray">
+        <style>
+            h5 {
+                text-align: center;
+            }
+        </style>
+        <h5>PRIVACY INFORMATION</h5>
+        <p>
+            The information you provide on this document is requested strictly to update our membership
+            data and the Membership Roster. This information will not be used for any other purpose except
+            with your written permission.
+        </p>
+        @*<div class="form-group">
+                <label asp-for="newMember.ApplicationStatus">Application Status:</label>
+                <input asp-for="newMember.ApplicationStatus" class="form-control" readonly />
+
+            </div>*@
+        <button type="submit" asp-page-handler="Submit">Submit Application</button>
+
+    </form>
 </body>
-</html>
