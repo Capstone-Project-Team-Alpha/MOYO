@@ -95,7 +95,6 @@ C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\bin\Debug\net5.0
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
-C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\obj\Debug\net5.0\MOYO Website.csproj.AssemblyReference.cache
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\obj\Debug\net5.0\MOYO Website.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\obj\Debug\net5.0\MOYO Website.AssemblyInfoInputs.cache
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\obj\Debug\net5.0\MOYO Website.AssemblyInfo.cs

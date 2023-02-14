@@ -139,3 +139,47 @@
     text-decoration: none;
 }
 
+input {
+    border: 1px solid #000;
+    width: 400px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+#myInput::-webkit-input-placeholder {
+    border-style: solid;
+    border-width: medium;
+}
+
+#myInput:-moz-placeholder {
+    border-style: solid;
+    border-width: medium;
+}
+
+#myInput:-ms-input-placeholder {
+    border-style: solid;
+    border-width: medium;
+}
+
+.contact-me-hero-text-container {
+    width: 35%;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+    flex-direction: column;
+}
+
+.contact-me-cta-btn2 {
+    color: var(--dl-color-gray-white);
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-fiveunits);
+    border-radius: 34px;
+    padding-right: var(--dl-space-space-fiveunits);
+    padding-bottom: var(--dl-space-space-unit);
+    background-color: var(--dl-color-primary-500);
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}

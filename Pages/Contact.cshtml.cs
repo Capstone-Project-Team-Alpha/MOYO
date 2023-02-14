@@ -19,6 +19,7 @@ namespace MOYO_Website.Pages
         [BindProperty]
         //Last Name validation goes here
         public string LastName { get; set; }
+        public string Subject { get; set; }
 
         [BindProperty]
         //Question validation goes here
