@@ -150,34 +150,36 @@
                             <li data-thq="thq-dropdown" class="home-dropdown list-item">
                                 <div data-thq="thq-dropdown-toggle"
                                      class="home-dropdown-toggle1">
-                                    <span class="home-text01">Update Appointment</span>
+                                    <a href="BookAppointment" class="home-link">Book Appointment</a>
                                 </div>
                             </li>
                             @*Add link*@
                             <li data-thq="thq-dropdown" class="home-dropdown1 list-item">
                                 <div data-thq="thq-dropdown-toggle"
                                      class="home-dropdown-toggle2">
-                                    <span class="home-text02">View Appointments</span>
+                                    <a href="ViewAppointments" class="home-link">View Appointments</a>
                                 </div>
                             </li>
-                            @*<li data-thq="thq-dropdown" class="home-dropdown2 list-item">
-                    <div data-thq="thq-dropdown-toggle"
-                         class="home-dropdown-toggle3">
-                        <span class="home-text03">Sub-menu Item</span>
-                    </div>
-                </li>*@
+                            <li data-thq="thq-dropdown" class="home-dropdown2 list-item">
+                                <div data-thq="thq-dropdown-toggle"
+                                     class="home-dropdown-toggle3">
+                                    <a href="UpdateAppointment" class="home-link">Update Appointment</a>
+                                </div>
+                            </li>
+                        </ul>
                         </ul>
                     </div>
                     <a href="WelcomePage" class="home-link">Home</a>
                     <a href="AboutMe" class="home-link">About Me</a>
                     <a href="Contact" class="home-link1">Contact Me</a>
-                    <div class="home-container1">
-                        <div class="home-container2"></div>
-                    </div>
+                    <a href="Login" class="home-link1">Login</a>
+                    
                     <div class="home-cta-container">
                         @*code this button*@
                         <button id="signup"
                                 name="signup"
+                                type="button"
+                                onclick="window.location.href = 'MembershipRegistration';"
                                 class="home-cta-btn button Anchor">
                             Sign Up
                         </button>

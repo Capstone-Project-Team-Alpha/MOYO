@@ -102,7 +102,7 @@
           href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
           data-tag="font" />
     <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+          href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
           data-tag="font" />
     <style>
         html {
@@ -142,38 +142,41 @@
                             </div>
                         </div>
                         <ul data-thq="thq-dropdown-list" class="home-dropdown-list">
+                            @*Add Link*@
                             <li data-thq="thq-dropdown" class="home-dropdown list-item">
-                                @*Add link functionality*@
                                 <div data-thq="thq-dropdown-toggle"
                                      class="home-dropdown-toggle1">
-                                    <a href="UpdateAppointment" class="home-link">Update Appointment</a>
+                                    <a href="BookAppointment" class="home-link">Book Appointment</a>
                                 </div>
                             </li>
-                            @*Add link functionality*@
+                            @*Add link*@
                             <li data-thq="thq-dropdown" class="home-dropdown1 list-item">
                                 <div data-thq="thq-dropdown-toggle"
                                      class="home-dropdown-toggle2">
                                     <a href="ViewAppointments" class="home-link">View Appointments</a>
                                 </div>
                             </li>
-                            @*<li data-thq="thq-dropdown" class="home-dropdown2 list-item">
-                    <div data-thq="thq-dropdown-toggle"
-                         class="home-dropdown-toggle3">
-                        <span class="home-text03">Sub-menu Item</span>
-                    </div>
-                </li>*@
+                            @*This sub-menu doesn't display in the Welcome Page. Don't know why?*@
+                            <li data-thq="thq-dropdown" class="home-dropdown2 list-item">
+                                <div data-thq="thq-dropdown-toggle"
+                                     class="home-dropdown-toggle3">
+                                    <a href="UpdateAppointment" class="home-link">Update Appointment</a>
+                                </div>
+                            </li>
+                        </ul>
                         </ul>
                     </div>
                     <a href="WelcomePage" class="home-link">Home</a>
                     <a href="AboutMe" class="home-link">About Me</a>
                     <a href="Contact" class="home-link1">Contact Me</a>
-                    <div class="home-container1">
-                        <div class="home-container2"></div>
-                    </div>
+                    <a href="Login" class="home-link1">Login</a>
+                    
                     <div class="home-cta-container">
                         @*code this button*@
                         <button id="signup"
                                 name="signup"
+                                type="button"
+                                onclick="window.location.href = 'MembershipRegistration';"
                                 class="home-cta-btn button Anchor">
                             Sign Up
                         </button>
