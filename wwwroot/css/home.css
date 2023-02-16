@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    min-height: 100vh;
+   /* min-height: 100vh;*/
     align-items: center;
     flex-direction: column;
 }
@@ -255,6 +255,7 @@
 .home-cta-btn {
     color: var(--dl-color-gray-white);
     padding-top: var(--dl-space-space-unit);
+    /*might need to change how the button is aligned on the page*/
     padding-left: var(--dl-space-space-fiveunits);
     border-radius: 34px;
     padding-right: var(--dl-space-space-fiveunits);
@@ -448,7 +449,8 @@
     border-width: 0px;
     border-radius: 34px;
     padding-bottom: var(--dl-space-space-doubleunit);
-    background-color: var(--dl-color-primary-100);
+    background-color: var(--dl-color-primary-500);
+   
 }
 
 .home-image2 {
@@ -860,10 +862,14 @@
         align-self: center;
     }
     .input {
-        border: 1px solid #000; 
         width: 400px;
-        padding: 20px;
-        font-size: 20px;
+        height: 30px;
+        border: 1px solid #999;
+        font-size: 18px;
+        color: #1c87c9;
+        background-color: #eee;
+        border-radius: 5px;
+        box-shadow: 4px 4px #ccc;
     }
 
 
