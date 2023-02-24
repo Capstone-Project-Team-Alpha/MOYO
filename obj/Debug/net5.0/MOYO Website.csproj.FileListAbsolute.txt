@@ -135,4 +135,3 @@ C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\obj\Debug\net5.0
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\obj\Debug\net5.0\Razor\Pages\WelcomePage.cshtml.g.cs
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\obj\Debug\net5.0\Razor\Pages\Contact.cshtml.g.cs
-C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\MOYO Website\obj\Debug\net5.0\MOYO Website.csproj.AssemblyReference.cache
