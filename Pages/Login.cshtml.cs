@@ -1,9 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using MOYO_Website.Model.Domain;
+using MOYO_Website.Technical_Services;
 
 namespace MOYO_Website.Pages
 {
@@ -16,8 +22,30 @@ namespace MOYO_Website.Pages
         [BindProperty]
         //Password validation goes here
         public string Password { get; set; }
+
+        [BindProperty]
+        public Login currentLogin { get; set; }
         public void OnGet()
         {
+        }
+
+        public async Task<IActionResult> OnPost()
+        {
+            var uname = "emily@gmail.com";
+            var pwd = "password";
+            var encryptedPwd = UtilityClass.Encrypt(uname,pwd);
+
+            currentLogin = LoginService.getlogin(Email, UtilityClass.Encrypt(Email, Password));
+
+            if (currentLogin != null)
+            {
+                HttpContext.Session.SetString("username", currentLogin.email);
+                return RedirectToPage("/Index");
+
+            }
+
+            Message = "Invalid Username or Password";
+            return Page();
         }
     }
 }

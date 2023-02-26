@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sramj\\OneDrive\\Desktop\\BAIS 3900\\Capstone\\MOYO Website\\MOYO Website.csproj": {}
+    "C:\\Users\\emyca\\Documents\\Visual Studio 2022\\capstone\\MOYO\\MOYO Website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sramj\\OneDrive\\Desktop\\BAIS 3900\\Capstone\\MOYO Website\\MOYO Website.csproj": {
+    "C:\\Users\\emyca\\Documents\\Visual Studio 2022\\capstone\\MOYO\\MOYO Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sramj\\OneDrive\\Desktop\\BAIS 3900\\Capstone\\MOYO Website\\MOYO Website.csproj",
+        "projectUniqueName": "C:\\Users\\emyca\\Documents\\Visual Studio 2022\\capstone\\MOYO\\MOYO Website.csproj",
         "projectName": "MOYO Website",
-        "projectPath": "C:\\Users\\sramj\\OneDrive\\Desktop\\BAIS 3900\\Capstone\\MOYO Website\\MOYO Website.csproj",
-        "packagesPath": "C:\\Users\\sramj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sramj\\OneDrive\\Desktop\\BAIS 3900\\Capstone\\MOYO Website\\obj\\",
+        "projectPath": "C:\\Users\\emyca\\Documents\\Visual Studio 2022\\capstone\\MOYO\\MOYO Website.csproj",
+        "packagesPath": "C:\\Users\\emyca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emyca\\Documents\\Visual Studio 2022\\capstone\\MOYO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sramj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emyca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
