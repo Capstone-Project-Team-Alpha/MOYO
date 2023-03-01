@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emyca\\Documents\\Visual Studio 2022\\capstone\\MOYO\\MOYO Website.csproj": {}
+    "C:\\Users\\ojewu\\source\\repos\\MOYO1\\MOYO Website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emyca\\Documents\\Visual Studio 2022\\capstone\\MOYO\\MOYO Website.csproj": {
+    "C:\\Users\\ojewu\\source\\repos\\MOYO1\\MOYO Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emyca\\Documents\\Visual Studio 2022\\capstone\\MOYO\\MOYO Website.csproj",
+        "projectUniqueName": "C:\\Users\\ojewu\\source\\repos\\MOYO1\\MOYO Website.csproj",
         "projectName": "MOYO Website",
-        "projectPath": "C:\\Users\\emyca\\Documents\\Visual Studio 2022\\capstone\\MOYO\\MOYO Website.csproj",
-        "packagesPath": "C:\\Users\\emyca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emyca\\Documents\\Visual Studio 2022\\capstone\\MOYO\\obj\\",
+        "projectPath": "C:\\Users\\ojewu\\source\\repos\\MOYO1\\MOYO Website.csproj",
+        "packagesPath": "C:\\Users\\ojewu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ojewu\\source\\repos\\MOYO1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emyca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ojewu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

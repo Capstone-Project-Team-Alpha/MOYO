@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/"
 @model MOYO_Website.Pages.MembershipRegistrationModel
 @{
 }
@@ -248,6 +248,12 @@
                     <div asp-validation-summary="ModelOnly" class="text-danger">
                     </div>
 
+                    <div class="form-group">
+                        <label asp-for="newMember.FirstName">First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input asp-for="newMember.FirstName" class="form-control" />
+                        <span asp-validation-for="newMember.FirstName" class="text-danger"></span>
+                    </div>
+                    <br />
 
                     <div class="form-group">
                         <label asp-for="newMember.LastName">Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
@@ -255,50 +261,53 @@
                         <span asp-validation-for="newMember.LastName" class="text-danger"></span>
                     </div>
                     <br />
+
                     <div class="form-group">
-                        <label asp-for="newMember.FirstName">First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input asp-for="newMember.FirstName" class="form-control" />
-                        <span asp-validation-for="newMember.FirstName" class="text-danger"></span>
+                        <label asp-for="newMember.Street">Street:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input asp-for="newMember.Street" class="form-control" />
+                        <span asp-validation-for="newMember.Street" class="text-danger"></span>
                     </div>
                     <br />
-                    <div class="form-group">
-                        <label asp-for="newMember.HomeAddress">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input asp-for="newMember.HomeAddress" class="form-control" />
-                        <span asp-validation-for="newMember.HomeAddress" class="text-danger"></span>
-                    </div>
-                    <br />
+
                     <div class="form-group">
                         <label asp-for="newMember.HomeCity">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input asp-for="newMember.HomeCity" class="form-control" />
                         <span asp-validation-for="newMember.HomeCity" class="text-danger"></span>
                     </div>
                     <br />
+
                     <div class="form-group">
                         <label asp-for="newMember.HomeProvince">Province:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         @*removed class "form-control" and replaced it with box*@
                         <select asp-for="newMember.HomeProvince" asp-items="Model.HProvince" class="box">
                             <option value=""></option>
                         </select>
+                        <span asp-validation-for="newMember.HomeProvince" class="text-danger"></span>
                     </div>
                     <br />
+
+
                     <div class="form-group">
                         <label asp-for="newMember.HomePostalCode">Postal Code:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input asp-for="newMember.HomePostalCode" class="form-control" />
                         <span asp-validation-for="newMember.HomePostalCode" class="text-danger"></span>
                     </div>
                     <br />
+
+                    <div class="form-group">
+                        <label asp-for="newMember.DateOfBirth">Date of Birth:&nbsp;&nbsp;&nbsp;</label>
+                        <input asp-for="newMember.DateOfBirth" class="form-control" type="date" />
+                        <span asp-validation-for="newMember.DateOfBirth" class="text-danger"></span>
+                    </div>
+                    <br />
+
                     <div class="form-group">
                         <label asp-for="newMember.HomePhone">Home Phone:&nbsp;&nbsp;&nbsp;</label>
                         <input asp-for="newMember.HomePhone" class="form-control" />
                         <span asp-validation-for="newMember.HomePhone" class="text-danger"></span>
                     </div>
                     <br />
-                    @*<div class="form-group">
-                        <label asp-for="newMember.AlternatePhone">Alternative Phone:</label>
-                        <input asp-for="newMember.AlternatePhone" class="form-control" />
-                        <span asp-validation-for="newMember.AlternatePhone" class="text-danger"></span>
-                    </div>*@
-                    @*<br />*@
+
                     <div class="form-group">
                         <label asp-for="newMember.Email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input asp-for="newMember.Email" class="form-control" />
@@ -306,19 +315,57 @@
                     </div>
                     @*<medium>Providing an Email address (above) will allow MOYO to send out a monthly newsletters via Email.</medium><br />*@
                     <br />
+
                     <div class="form-group">
-                        <label asp-for="newMember.DateOfBirth">Date of Birth:&nbsp;&nbsp;&nbsp;</label>
-                        <input asp-for="newMember.DateOfBirth" class="form-control" type="date" />
-                        <span asp-validation-for="newMember.DateOfBirth" class="text-danger"></span>
+                        <label asp-for="newMember.Hobbies">Hobbies:&nbsp;&nbsp;&nbsp;</label>
+                        <input asp-for="newMember.Hobbies" class="form-control" />
+                        <span asp-validation-for="newMember.Hobbies" class="text-danger"></span>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <label asp-for="newMember.Occupation">Occupation:&nbsp;&nbsp;&nbsp;</label>
+                        <input asp-for="newMember.Occupation" class="form-control" />
+                        <span asp-validation-for="newMember.Occupation" class="text-danger"></span>
+                    </div>
+                    <br />
+
+
+                    @*<div class="form-group">
+            <label asp-for="newMember.HomeAddress">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input asp-for="newMember.HomeAddress" class="form-control" />
+            <span asp-validation-for="newMember.HomeAddress" class="text-danger"></span>
+        </div>
+        <br />*@
+
+
+
+
+                    @*<div class="form-group">
+            <label asp-for="newMember.Street">Street:&nbsp;&nbsp;&nbsp;</label>
+            <input asp-for="newMember.Street" class="form-control" />
+            <span asp-validation-for="newMember.Street" class="text-danger"></span>
+        </div>
+        <br />*@
+
+
+                    @*<div class="form-group">
+            <label asp-for="newMember.AlternatePhone">Alternative Phone:</label>
+            <input asp-for="newMember.AlternatePhone" class="form-control" />
+            <span asp-validation-for="newMember.AlternatePhone" class="text-danger"></span>
+        </div>*@
+                    @*<br />*@
+
+
+                    <div class="contact-me-hero-text-container">
+                        @*code this to database*@
+                        @*I changed the class from contact-me-cta-btn2 to home-cta-btn button and the css works. I don't know why*@
+                        <button type="submit" class="home-cta-btn button" @*asp-page-handler="Submit"*@>Submit</button>
                     </div>
 
                 </form>
-                <br />
-                <div class="contact-me-hero-text-container">
-                    @*code this to database*@
-                    @*I changed the class from contact-me-cta-btn2 to home-cta-btn button and the css works. I don't know why*@
-                    <button type="submit" class="home-cta-btn button" asp-page-handler="Submit">Submit</button>
-                </div>
+               
+               
             </div>
             <div id="contact" class="home-contact">
                 <div class="home-content-container">

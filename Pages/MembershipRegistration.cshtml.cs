@@ -6,12 +6,19 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MOYO_Website.Model.Domain;
+using MOYO_Website.Technical_Services;
 
 namespace MOYO_Website.Pages
 {
     public class MembershipRegistrationModel : PageModel
     {
+        private readonly ICustomerService _customerService;
+        public MembershipRegistrationModel(ICustomerService customerService)
+        {
+            _customerService = customerService;
+        }
         public string Message { get; set; }
+        [BindProperty]
         public Customer newMember { get; set; }
 
         public List<SelectListItem> HProvince { get; } = new List<SelectListItem>
@@ -32,6 +39,21 @@ namespace MOYO_Website.Pages
         };
         public void OnGet()
         {
+
+
+        }
+
+        public IActionResult OnPost()
+        {
+
+            if(ModelState.IsValid)
+            {
+                _customerService.AddNewCustomer(newMember);
+                return Redirect("/Login");
+            }
+           
+
+            return Page();
         }
     }
 }
