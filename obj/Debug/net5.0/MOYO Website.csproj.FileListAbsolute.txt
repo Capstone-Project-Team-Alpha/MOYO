@@ -416,3 +416,4 @@ C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\Merger\MOYO Website\MOYO-mast
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\Merger\MOYO Website\MOYO-master\obj\Debug\net5.0\MOYO Website.pdb
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\Merger\MOYO Website\MOYO-master\obj\Debug\net5.0\MOYO Website.genruntimeconfig.cache
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\Merger\MOYO Website\MOYO-master\obj\Debug\net5.0\Razor\Pages\StaffRegistration.cshtml.g.cs
+C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\Merger\MOYO Website\MOYO-master\obj\Debug\net5.0\MOYO Website.csproj.AssemblyReference.cache

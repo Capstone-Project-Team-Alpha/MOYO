@@ -167,7 +167,7 @@
                             <li data-thq="thq-dropdown" class="home-dropdown1 list-item">
                                 <div data-thq="thq-dropdown-toggle"
                                      class="home-dropdown-toggle2">
-                                    <a href="ViewAppointments" class="home-link">View Appointments</a>
+                                    <a href="CreateSchedule" class="home-link">View Appointments</a>
                                 </div>
                             </li>
                             <li data-thq="thq-dropdown" class="home-dropdown2 list-item">
@@ -235,14 +235,14 @@
                 <form method="post" class="contact-me-form">
                     <div class="contact-me-container08">
                         <label asp-for="Email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input id="myInput" asp-for="Email" class="form-control" />
+                        <input id="myInput" asp-for="Email" class="form-control" type="email" />
                         <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
                     <br />
                     <div class="contact-me-container04">
                        
                         <label asp-for="Password">Password:&nbsp;</label>
-                        <input id="myInput" asp-for="Password" class="form-control" />
+                        <input id="myInput" asp-for="Password" class="form-control" type="password" />
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
                     <br />

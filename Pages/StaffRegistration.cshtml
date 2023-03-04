@@ -185,7 +185,7 @@
                             <li data-thq="thq-dropdown" class="home-dropdown2 list-item">
                                 <div data-thq="thq-dropdown-toggle"
                                      class="home-dropdown-toggle3">
-                                    <a href="UpdateAppointment" class="home-link">Update Appointment</a>
+                                    <a href="CreateSchedule" class="home-link">View Appointments</a>
                                 </div>
                             </li>
                         </ul>
@@ -301,7 +301,7 @@
                     @*<br />*@
                     <div class="form-group">
                         <label asp-for="newStaff.Email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input asp-for="newStaff.Email" class="form-control" />
+                        <input asp-for="newStaff.Email" class="form-control" type="email"/>
                         <span asp-validation-for="newStaff.Email" class="text-danger"></span>
                     </div>
                     <br />
