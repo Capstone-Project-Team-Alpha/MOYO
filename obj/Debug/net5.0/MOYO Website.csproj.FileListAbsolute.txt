@@ -417,3 +417,141 @@ C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\Merger\MOYO Website\MOYO-mast
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\Merger\MOYO Website\MOYO-master\obj\Debug\net5.0\MOYO Website.genruntimeconfig.cache
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\Merger\MOYO Website\MOYO-master\obj\Debug\net5.0\Razor\Pages\StaffRegistration.cshtml.g.cs
 C:\Users\sramj\OneDrive\Desktop\BAIS 3900\Capstone\Merger\MOYO Website\MOYO-master\obj\Debug\net5.0\MOYO Website.csproj.AssemblyReference.cache
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\appsettings.json
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\MOYO Website.exe
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\MOYO Website.deps.json
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\MOYO Website.runtimeconfig.json
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\MOYO Website.runtimeconfig.dev.json
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\MOYO Website.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\ref\MOYO Website.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\MOYO Website.pdb
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\MOYO Website.Views.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\MOYO Website.Views.pdb
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Azure.Core.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Azure.Identity.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.SqlServer.Server.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.CoreUtility.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.Editor.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.LiveShare.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.LiveShare.LanguageServices.16.3.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.Text.Data.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.Text.Logic.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.Text.UI.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.Text.UI.Wpf.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.Threading.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.VisualStudio.Validation.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Memory.Data.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Security.AccessControl.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\cs\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\de\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\es\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\fr\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\it\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\ja\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\ko\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\pl\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\ru\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\tr\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\cs\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\de\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\es\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\fr\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\it\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\ja\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\ko\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\pl\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\ru\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\tr\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win\lib\netstandard2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.AssemblyInfoInputs.cache
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.AssemblyInfo.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.csproj.CoreCompileInputs.cache
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.RazorAssemblyInfo.cache
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.RazorAssemblyInfo.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\staticwebassets\MOYO Website.StaticWebAssets.Manifest.cache
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\staticwebassets\MOYO Website.StaticWebAssets.xml
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\scopedcss\bundle\MOYO Website.styles.css
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.TagHelpers.input.cache
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.TagHelpers.output.cache
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.RazorCoreGenerate.cache
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\AboutMe.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\BookAppointment.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\Contact.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\CreateSchedule.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\Logout.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\MembershipRegistration.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\StaffRegistration.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\UpdateAppointment.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\UpdateSchedule.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\ViewAppointments.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\ViewSchedule.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\WelcomePage.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.RazorTargetAssemblyInfo.cache
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.RazorTargetAssemblyInfo.cs
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.Views.pdb
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.csproj.CopyComplete
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\ref\MOYO Website.dll
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.pdb
+C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.genruntimeconfig.cache

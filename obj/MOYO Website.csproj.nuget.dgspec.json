@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sramj\\OneDrive\\Desktop\\BAIS 3900\\Capstone\\Merger\\MOYO Website\\MOYO-master\\MOYO Website.csproj": {}
+    "C:\\Users\\ojewu\\Source\\Repos\\Capstone-Project-Team-Alpha\\MOYO\\MOYO Website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sramj\\OneDrive\\Desktop\\BAIS 3900\\Capstone\\Merger\\MOYO Website\\MOYO-master\\MOYO Website.csproj": {
+    "C:\\Users\\ojewu\\Source\\Repos\\Capstone-Project-Team-Alpha\\MOYO\\MOYO Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sramj\\OneDrive\\Desktop\\BAIS 3900\\Capstone\\Merger\\MOYO Website\\MOYO-master\\MOYO Website.csproj",
+        "projectUniqueName": "C:\\Users\\ojewu\\Source\\Repos\\Capstone-Project-Team-Alpha\\MOYO\\MOYO Website.csproj",
         "projectName": "MOYO Website",
-        "projectPath": "C:\\Users\\sramj\\OneDrive\\Desktop\\BAIS 3900\\Capstone\\Merger\\MOYO Website\\MOYO-master\\MOYO Website.csproj",
-        "packagesPath": "C:\\Users\\sramj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sramj\\OneDrive\\Desktop\\BAIS 3900\\Capstone\\Merger\\MOYO Website\\MOYO-master\\obj\\",
+        "projectPath": "C:\\Users\\ojewu\\Source\\Repos\\Capstone-Project-Team-Alpha\\MOYO\\MOYO Website.csproj",
+        "packagesPath": "C:\\Users\\ojewu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ojewu\\Source\\Repos\\Capstone-Project-Team-Alpha\\MOYO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sramj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ojewu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

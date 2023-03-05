@@ -34,7 +34,7 @@ namespace MOYO_Website.Pages
         public List<SelectListItem> OfferingLists { get; set; }
         public List<SelectListItem> AsnaLists { get; set; }
         public Appointment AvailableAppointment { get; set; }
-        public Customer newMember { get; set; }
+        public Customer newCustomer { get; set; }
         public void OnGet()
         {
         }

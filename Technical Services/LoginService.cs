@@ -35,7 +35,7 @@ namespace MOYO_Website.Technical_Services
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Connection = moyoConnection;
-                cmd.CommandText = "[GetLogin]";
+                cmd.CommandText = "[GetCustomerLogin]";
                 cmd.Parameters.Add(useremail);
                 cmd.Parameters.Add(passwd);
 

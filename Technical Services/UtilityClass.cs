@@ -22,10 +22,15 @@ namespace MOYO_Website.Technical_Services
             var builder = new ConfigurationBuilder().Add(jsonSource);
             var cfg = builder.Build();
             string dbConnectionString = cfg.GetSection("ConnectionStrings:MoyoConnectionString").Value;
+            //moyoConnection = new SqlConnection()
+            //{
+            //    ConnectionString = dbConnectionString
+            //};
             moyoConnection = new SqlConnection()
             {
-                ConnectionString = dbConnectionString
+                ConnectionString = "Data Source=dev1.baist.ca;Initial Catalog=MOYO_DB;User ID=mojewunmi1;Password=ADEdamola123!"
             };
+
             return moyoConnection;
         }
 

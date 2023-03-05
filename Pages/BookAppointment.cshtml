@@ -292,14 +292,14 @@
                                                 <div asp-validation-summary="ModelOnly" class="text-danger">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label asp-for="newMember.CustomerID">
+                                                    <label asp-for="newCustomer.CustomerID">
                                                         Customer ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                     </label>
 
-                                                    <input asp-for="newMember.CustomerID" class="form-control" value="@Model.CustomerID" readonly />
+                                                    <input asp-for="newCustomer.CustomerID" class="form-control" value="@Model.CustomerID" readonly />
                                                 </div>
                                                 <br />
                                                 <div class="form-group">
@@ -548,22 +548,22 @@
                         
                         <div class="form-group">
                             @*must be current date. Add logic*@
-                            <label asp-for="newMember.Date">Date:</label>
-                            <input asp-for="newMember.Date" class="form-control" type="date" min="@DateTime.UtcNow.Date.ToString("yyyy-MM-dd")" />
-                            <span asp-validation-for="newMember.Date" class="text-danger"></span>
+                            <label asp-for="newCustomer.Date">Date:</label>
+                            <input asp-for="newCustomer.Date" class="form-control" type="date" min="@DateTime.UtcNow.Date.ToString("yyyy-MM-dd")" />
+                            <span asp-validation-for="newCustomer.Date" class="text-danger"></span>
                         </div>
                         <hr style="height:2px;border-width:10px;color:gray;background-color:gray">
                         
                         <div class="form-group">
-                            <label asp-for="newMember.FirstName">First Name:</label>
-                            <input asp-for="newMember.FirstName" class="form-control" />
-                            <span asp-validation-for="newMember.FirstName" class="text-danger"></span>
+                            <label asp-for="newCustomer.FirstName">First Name:</label>
+                            <input asp-for="newCustomer.FirstName" class="form-control" />
+                            <span asp-validation-for="newCustomer.FirstName" class="text-danger"></span>
                         </div>
 
                         <div class="form-group">
-                            <label asp-for="newMember.LastName">Last Name:</label>
-                            <input asp-for="newMember.LastName" class="form-control" />
-                            <span asp-validation-for="newMember.LastName" class="text-danger"></span>
+                            <label asp-for="newCustomer.LastName">Last Name:</label>
+                            <input asp-for="newCustomer.LastName" class="form-control" />
+                            <span asp-validation-for="newCustomer.LastName" class="text-danger"></span>
                         </div>
                         <br />
                       
