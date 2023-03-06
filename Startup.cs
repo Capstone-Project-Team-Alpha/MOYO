@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MOYO_Website.Technical_Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,12 @@ namespace MOYO_Website
             services.AddRazorPages();
             //changed landing page to welcome page
             services.AddMvc().AddRazorPagesOptions(options => options.Conventions.AddPageRoute("/WelcomePage", ""));
+            services.AddScoped<ICustomerService, CustomerService>();
+
+            //Enable session... session will expire after 10 min
+            services.AddSession(options => {
+                options.IdleTimeout = TimeSpan.FromMinutes(10);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,7 +51,7 @@ namespace MOYO_Website
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseRouting();
 
             app.UseAuthorization();

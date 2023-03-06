@@ -31,16 +31,16 @@ namespace MOYO_Website.Pages
 
         public async Task<IActionResult> OnPost()
         {
-            var uname = "emily@gmail.com";
-            var pwd = "password";
-            var encryptedPwd = UtilityClass.Encrypt(uname,pwd);
+            //var uname = "emily@gmail.com";
+            //var pwd = "password";
+            //var encryptedPwd = UtilityClass.Encrypt(uname,pwd);
 
-            currentLogin = LoginService.getlogin(Email, UtilityClass.Encrypt(Email, Password));
-
+            //currentLogin = LoginService.getlogin(Email, UtilityClass.Encrypt(Email, Password));
+            currentLogin = LoginService.getlogin(Email,  Password);
             if (currentLogin != null)
             {
                 HttpContext.Session.SetString("username", currentLogin.email);
-                return RedirectToPage("/Index");
+                return Redirect("/BookAppointment");
 
             }
 
