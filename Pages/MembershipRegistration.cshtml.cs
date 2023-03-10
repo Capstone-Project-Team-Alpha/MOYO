@@ -50,6 +50,9 @@ namespace MOYO_Website.Pages
 
             if (ModelState.IsValid)
             {
+                //encrypt password
+                newCustomer.Password = UtilityClass.Encrypt(newCustomer.Email, newCustomer.Password);
+
                var msg= _customerService.AddNewCustomer(newCustomer);
                 if(string.IsNullOrEmpty(msg))
                 {
