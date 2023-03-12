@@ -26,7 +26,7 @@ namespace MOYO_Website.Pages.Admin
         }
         private void getAllGoals()
         {
-            dbGoals = GoalService.getAllGoals();
+            dbGoals = MOYOHandler.getAllGoals();
             if (dbGoals != null)
             {
                 if (dbGoals.Count != 0)
