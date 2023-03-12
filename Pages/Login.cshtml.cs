@@ -31,13 +31,15 @@ namespace MOYO_Website.Pages
 
         public async Task<IActionResult> OnPost()
         {
-           
-            currentLogin = LoginService.getlogin(Email, UtilityClass.Encrypt(Email, Password));
-           // currentLogin = LoginService.getlogin(Email,  Password);
+            
+              currentLogin = LoginService.getlogin(Email, UtilityClass.Encrypt(Email,Password));
+
             if (currentLogin != null)
             {
                 HttpContext.Session.SetString("username", currentLogin.email);
-                return Redirect("/BookAppointment");
+                Message = "Login Successful";
+                return Page();
+                //return Redirect("/BookAppointment");
 
             }
 
