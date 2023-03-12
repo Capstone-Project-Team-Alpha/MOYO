@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.VisualStudio.OLE.Interop;
 using MOYO_Website.Model.Domain;
 using MOYO_Website.Technical_Services;
 
@@ -13,15 +14,19 @@ namespace MOYO_Website.Pages
     public class MembershipRegistrationModel : PageModel
     {
 
-        private readonly ICustomerService _customerService;
-        public MembershipRegistrationModel(ICustomerService customerService)
-        {
-            _customerService = customerService;
-        }
+        //private readonly ICustomerService _customerService;
+
+        //public MembershipRegistrationModel(ICustomerService customerService)
+        //{
+        //    _customerService = customerService;
+        //}
+        [BindProperty]
         public string Message { get; set; }
         //brings in attributes of the Customer class
         [BindProperty]
         public Customer newCustomer { get; set; }
+        [BindProperty]
+        public Login existingUser { get; set; }
 
         public List<SelectListItem> HProvince { get; } = new List<SelectListItem>
         {
@@ -48,19 +53,38 @@ namespace MOYO_Website.Pages
         public IActionResult OnPost()
         {
 
-            if (ModelState.IsValid)
-            {
-               var msg= _customerService.AddNewCustomer(newCustomer);
-                if(string.IsNullOrEmpty(msg))
+           
+                try
                 {
-                    return Redirect("/Login");
+                    newCustomer.Password = UtilityClass.Encrypt(newCustomer.Email,newCustomer.Password);//encrypty password
 
+                    //validate user does not exist using email
+                    existingUser = MOYOHandler.getLoginByUser(newCustomer.Email);
+                    if (existingUser == null)
+                    {
+
+                        var msg = MOYOHandler.newRegistration(newCustomer);
+                        if (string.IsNullOrEmpty(msg))
+                        {
+                            //return Redirect("/Login");
+                            ViewData["msg"] = msg;
+                            Message = "Registration Completed Successfully";
+
+                        }
+                       
+
+                    }
+                    else
+                    {
+                        ViewData["msg"] = "User already exist";
+                    }
+
+                }catch(Exception ex)
+                {
+                    Message = "Registration Failed";
                 }
-                ViewData["msg"] = msg;
-                return Page();
-            }
 
-
+            
             return Page();
         }
     }
