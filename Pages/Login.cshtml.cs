@@ -33,6 +33,7 @@ namespace MOYO_Website.Pages
         {
             
               currentLogin = LoginService.getlogin(Email, UtilityClass.Encrypt(Email,Password));
+
             if (currentLogin != null)
             {
                 HttpContext.Session.SetString("username", currentLogin.email);

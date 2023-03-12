@@ -8,7 +8,7 @@ using MOYO_Website.Model.Domain;
 namespace MOYO_Website.Model.Domain
 {
     public static class MOYOHandler
-    {
+    
         public static Login Login(string username, string password)
         {
             Login currentLogin = new Login();
@@ -87,5 +87,20 @@ namespace MOYO_Website.Model.Domain
             }
             return goalsList;
         }
+=======
+        #region Schedule
+
+        public bool CreateSchedule(string AppointmentDate, string AppointmentStartTime, string AppointmentEndTime, int StaffID, int MaxParticipants)
+        {
+            bool Confirmation = false;
+
+            Schedule ScheduleRequest = new Schedule();
+            Confirmation = ScheduleRequest.AddSchedule(AppointmentDate, AppointmentStartTime, AppointmentEndTime, StaffID, MaxParticipants);
+
+            return Confirmation;
+        }
+
+        #endregion
+
     }
 }
