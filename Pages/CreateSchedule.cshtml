@@ -1,7 +1,6 @@
 ﻿@page
 @model MOYO_Website.Pages.CreateScheduleModel
-@{
-}
+@{ }
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
@@ -232,15 +231,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        @*<link rel="stylesheet" href="style.css">*@
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*<link rel="stylesheet" href="style.css">*@
 
-        <link rel="stylesheet"
-              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-              integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-              crossorigin="anonymous"
-              referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
     <title>Calendar</title>
 </head>
 <body class="body-style">
@@ -283,31 +282,46 @@
                 <!-- events are added through JavaScript -->
 
             </div>
-            <div class="add-event-wrapper">
+            <form class="add-event-wrapper" method="post">
                 <div class="add-event-header">
-                    <div class="title">Add Event</div>
+                    <div class="title">Add Appointment</div>
                     <i class="fas fa-times close"></i>
                 </div>
                 <div class="add-event-body">
-                    <div class="add-event-input">
-                        <input type="text" placeholder="Appointment Name" class="event-name" />
+                    <!--<div class="add-event-input">-->
+                    @*<input type="text" placeholder="Appointment Name" class="event-name" />*@
+                    @*<div class="form-group">
+                         <label asp-for="Time">Time</label>
+                        <select asp-for="Time" asp-items="Model.TimeLists" class="form=control" value="@Model.Time">
+                         </select>
+                        </div>*@
+                    <!--<label asp-for="AppointmentName">Appointment Name</label>
+                        <select asp-for="AppointmentName" asp-items="Model.AppointmentLists" class="event-name" placeholder="Appointment Name" value="Model.Schedules" />
+                    </div>-->
+
+                    <div class="add-event-input form-group">
+                        <input asp-for="AppointmentDate" type="date" class="event-name" placeholder="Appointment Date" />
                     </div>
-                    <div class="add-event-input">
-                        <input type="text"
-                               placeholder="Appointment Start From"
-                               class="event-time-from" />
+                    <div class="add-event-input form-group">
+                        @*<input type="text"
+                            placeholder="Appointment Start From"
+                            class="event-time-from" />*@
+                        <input asp-for="AppointmentStartTime" type="time" class="event-time-from" placeholder="Appointment Start Time" min="18:00" />
                     </div>
-                    <div class="add-event-input">
-                        <input type="text"
-                               placeholder="Appointment End To"
-                               class="event-time-to" />
+                    <div class="add-event-input form-group">
+                        @*<input type="text"
+                            placeholder="Appointment End To"
+                            class="event-time-to" />*@
+                        <input asp-for="AppointmentEndTime" type="time" class="event-time-to" placeholder="Appointment End Time" max="22:00" />
+                    </div>
+                    <div class="add-event-input form-group">
+                        <input asp-for="MaxParticipants" type="number" min="1" value="1" class="event-name" placeholder="Max Number Of Participants" />
                     </div>
                 </div>
                 <div class="add-event-footer">
-                    <!-- connect to database -->
-                    <button class="add-event-btn">Add Appointment</button>
+                    <button type="submit" class="add-event-btn" asp-page-handler="Submit">Add Appointment</button>
                 </div>
-            </div>
+            </form>
         </div>
         <button class="add-event">
             <i class="fas fa-plus"></i>

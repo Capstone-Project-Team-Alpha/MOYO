@@ -555,3 +555,14 @@ C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MO
 C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\ref\MOYO Website.dll
 C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.pdb
 C:\Users\ojewu\Source\Repos\Capstone-Project-Team-Alpha\MOYO\obj\Debug\net5.0\MOYO Website.genruntimeconfig.cache
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\MOYO Website.csproj.AssemblyReference.cache
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\MOYO Website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\MOYO Website.AssemblyInfoInputs.cache
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\MOYO Website.AssemblyInfo.cs
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\MOYO Website.csproj.CoreCompileInputs.cache
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\MOYO Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\MOYO Website.RazorAssemblyInfo.cache
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\MOYO Website.RazorAssemblyInfo.cs
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\MOYO Website.dll
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\ref\MOYO Website.dll
+C:\Users\sramj\OneDrive\Documents\GitHub\MOYO\obj\Debug\net5.0\MOYO Website.pdb
